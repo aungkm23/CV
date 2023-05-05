@@ -24,7 +24,7 @@ while True:
         status = 1
         (x, y, w, h) = cv2.boundingRect(contour)  # box around the object
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
-
+#small change
     #status_list.append(status)
     #status_list = status_list[-2:]
 
