@@ -3,7 +3,7 @@ from pyzbar import pyzbar
 
 debug = False
 
-
+#Scanning from video
 def Scanning(vid, debug):
     while True:
         try:
